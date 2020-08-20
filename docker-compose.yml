@@ -1,0 +1,11 @@
+version: "3"
+
+
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./conf:/home/conf
+      - ./html:/home/html
