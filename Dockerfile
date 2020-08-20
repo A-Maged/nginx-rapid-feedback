@@ -10,6 +10,7 @@ RUN apt-get update && \
     apt-get install -y luarocks && \
     apt-get install vim -y
 
+Run luarocks install lua-resty-auto-ssl
 
 # symlinks access.log and error.log to /dev/stdout and /dev/stderr
 RUN ln -sf /dev/stdout /usr/local/openresty/nginx/logs/access.log \
