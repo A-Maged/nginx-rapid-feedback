@@ -6,6 +6,7 @@ services:
     build: .
     ports:
       - "80:80"
+      - "443:443"
     volumes:
       - ./conf:/home/conf
       - ./html:/home/html
