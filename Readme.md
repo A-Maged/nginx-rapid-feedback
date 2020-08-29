@@ -1,4 +1,4 @@
-#### Refresh openresty config when changing "/conf/nginx.conf" file
+#### Refresh openresty(nginx + lua) config when changing "/conf/nginx.conf" file
 
 ```bash
 docker-compose up --build
