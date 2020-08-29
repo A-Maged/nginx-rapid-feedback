@@ -8,5 +8,5 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./conf:/home/conf
-      - ./html:/home/html
+      - ./conf:/usr/local/openresty/nginx/conf/
+      - ./html:/usr/local/openresty/nginx/html
